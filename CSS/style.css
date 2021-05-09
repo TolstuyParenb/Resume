@@ -387,7 +387,7 @@ body {
 }
 
 .footer-main-contact {
-    width: calc(50% + 100px);
+    width: calc(50% + 140px);
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -405,6 +405,12 @@ body {
     color: var(--txt-c-dark);
 }
 
+.footer-contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .footer-my-contacts {
     display: flex;
     flex-direction: column;
@@ -416,6 +422,13 @@ body {
     color: var(--txt-c-dark);
     margin: 0px;
     margin: 0 0 20px 0;
+}
+
+.footer-my-contacts-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .footer-tel {
@@ -435,6 +448,10 @@ body {
     margin-bottom: 30px;
 }
 
+.icons {
+    margin-top: -15px;
+}
+
 .icon-link {
     text-decoration: none;
     font-size: 25px;
@@ -445,11 +462,21 @@ body {
 }
 
 .socion-link {
-    padding-right: 35px;
+    padding-right: 20px;
     text-decoration: none;
     color: var(--c-dark);
 }
 
 .socion-link:last-child {
     margin-right: 0px;
+}
+
+.phone {
+    font-size: 22px;
+    margin-top: -13px;
+}
+
+.mail {
+    font-size: 22px;
+    margin-top: 13px;
 }
