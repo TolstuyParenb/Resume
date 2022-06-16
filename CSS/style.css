@@ -294,6 +294,7 @@ body {
     margin: 0 0 30px 0;
 }
 /* SKILLS */
+
 .skills-container {
     width: 100%;
     justify-content: space-between;
@@ -489,6 +490,7 @@ margin-right: 30px;
     font-size: 22px;
     margin-top: 13px;
 }
+
 /* responsive starts here */
 
 
@@ -644,6 +646,13 @@ width: 540px;
     left: 315px;
     
 }
+/* Education */
+.education-list {
+    width: 400px;
+    margin-left: 20px;
+}
+/* Skills */
+
 .skills-container {
     width: 105%;
     
@@ -724,7 +733,69 @@ width: 540px;
     flex-direction: column;
     align-items: center;
 }
-.expirience-container:last-child {
-margin-right: 10px;
+    .expirience-container:last-child {
+    margin-right: 10px;
+}
+
+/* Footer */
+
+.footer-container {
+    width: 685px;
+    background: var(--c-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   }
+.footer-main-contact {
+    width: 675px;
+    justify-content: center;
+}
+.footer-my-info {
+    display: none;
+}
+.footer-contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-my-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+}
+.footer-tel {
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.footer-email {
+    font-size: 25px; 
+    margin-bottom: 20px;
+}
+
+.icons {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.icon-link {
+    
+    font-size: 35px;
+}
+
+.socion-link {
+    margin-left: 40px;   
+}
+
+
+.fa-mobile-alt {
+    display: none;
+}
+.fa-envelope-square {
+    display: none;
 }
 }
