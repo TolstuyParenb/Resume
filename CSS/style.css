@@ -52,7 +52,7 @@ body {
 
 .navigation {
     background: var(--c-dark);
-    width: 97%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -548,8 +548,11 @@ width: 540px;
 
 @media screen and (max-width: 575px) {
     .container {
-    width: 160%;
+    width: 208%;
     padding: 0 15px;
+}
+.navigation {
+    width: 100%;
 }
 .front-page-my-name {
     font-weight: bold;
@@ -619,11 +622,10 @@ width: 540px;
 }
 
 .about-title {
-    font-size: 50px;
+    font-size: 55px;
     line-height: 55px;
-    width: 100%;
+    width: 450px;
     margin-top: 0;
-    text-transform: uppercase;
 }
 
 .about-text {
@@ -643,10 +645,16 @@ width: 540px;
     font-size: 225px;
     line-height: 300px;
     text-align: end;
-    left: 315px;
+    left: 470px;
     
 }
+.about-text {
+width: 130%;
+font-size: 25px;
+line-height: 35px;
+}
 /* Education */
+
 .education-list {
     width: 400px;
     margin-left: 20px;
@@ -740,7 +748,7 @@ width: 540px;
 /* Footer */
 
 .footer-container {
-    width: 685px;
+    width: 885px;
     background: var(--c-light);
     display: flex;
     flex-direction: column;
