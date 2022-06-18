@@ -549,8 +549,9 @@ width: 540px;
 
 @media screen and (max-width: 575px) {
     .container {
-    width: 223%;
-    padding: 0 15px;
+    width: 240%;
+    padding: 0px 20px;
+   
 }
 .navigation {
     width: 100%;
@@ -590,7 +591,7 @@ width: 540px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
     margin-bottom: 20px;
 }
@@ -670,8 +671,8 @@ line-height: 35px;
     
 }
 .laptop-web {
-    margin-right: 55px;
-    width: 25%;
+    margin-right: 40px;
+    width: 30%;
 }
 .content-container {
     width:0;
@@ -745,7 +746,7 @@ line-height: 35px;
 /* Footer */
 
 .footer-container {
-    width: 945px;
+    width: 905px;
     display: flex;
     flex-direction: column;
     align-items: center;
